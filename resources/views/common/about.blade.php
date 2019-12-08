@@ -17,7 +17,22 @@
 		<div class="pad-t-3 mission-vis-wr" id="loading">
 				<div class="col-md-4 text-center">
 					<img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
-					<h2 class="heading" style="font-size: 18px;">Vision</h2>
+					<h2 class="heading" style="font-size: 18px;">Academics</h2>
+					<div class="col-md-12">
+                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                     </div>
+                     <div class="col-md-12">
+                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                     </div>
+                     <div class="col-md-12">
+                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                     </div>
+                     <div class="col-md-12">
+                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                     </div>
+                     <div class="col-md-12">
+                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                     </div>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
 				</div>
 				<div class="col-md-4 text-center">
