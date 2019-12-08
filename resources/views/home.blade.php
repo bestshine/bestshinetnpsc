@@ -96,7 +96,7 @@
                         <div class="row">
                             <div class="banner-carousel-cont text-center">
                                 <span>
-                                    Smart way to prepare for <span class="yellow">Career Exam</span>
+                                    Smart way to prepare for <span class="yellow">Govt. Jobs Exam</span>
                                 </span>
                             <!-- <div class="col-md-12">
                                     <a href="#" class="get-courses-btn dilb">Get courses</a>
@@ -113,8 +113,24 @@
              
                 <div class="item">
                     <img src="{{ asset('images/home/neet-BANNER.png') }}" alt="New York" style="width:100%;">
-                    <div class="carousel-caption">
+                    <div class="carousel-inner-content col-md-6">
+                        <div class="row">
+                            <div class="banner-carousel-cont text-center">
+                                <span>
+                                    Smart way to prepare for <span class="yellow">Banking Exam</span>
+                                </span>
+                            <!-- <div class="col-md-12">
+                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                                </div>-->
+                               
+                               <div class="col-md-12 Anouncement-wr">
+                                    <label>Anouncement</label>
+                                    <div class="Anouncement-marquee"><marquee>Smart way to prepare for IAS, IPS, TNPSC, BANK, TET Exam Smart way to prepare for IAS, IPS, TNPSC, BANK, TET Exam</marquee></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
 
