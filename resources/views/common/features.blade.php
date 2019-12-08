@@ -35,8 +35,75 @@
     </div>
     <hr>
 </div>
+<section class="text-center about-wr">
+    
+        
+    
+    <div class="container">
+        
 
-<section class="features-wr">
+
+        <h2 class="heading">TNPSC</h2>
+        <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>-->
+        <div class="pad-t-3 mission-vis-wr" id="loading">
+                <div class="col-md-4 text-center">
+                    <img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
+                    <h2 class="heading" style="font-size: 35px;">Academics</h2>
+                    <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COURCES OFFERED</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">EXAM PATTERN</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">BOOK LIST</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">INTERVIEW GUIDANCE</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COUNSELLING SUPPORT</a>
+                     </div>
+                <!--    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>-->
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="{{ asset('images/home/mission.png') }}" class="wow animated fadeInRight">
+                    <h2 class="heading" style="font-size: 35px;">Admission</h2>
+                    <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">ADMISSION POLICY</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COURSE SCHEDULE</a>
+                     </div>
+                    <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>-->
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
+                    <h2 class="heading" style="font-size: 35px;">Overview</h2>
+                    <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COURCES OFFERED</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">EXAM PATTERN</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">BOOK LIST</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">INTERVIEW GUIDANCE</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COUNSELLING SUPPORT</a>
+                     </div>
+                     <div class="col-md-12" align="left">
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COUNSELLING SUPPORT</a>
+                     </div>
+                    <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>-->
+                </div>
+        </div>
+    </div>
+</section>
+<!--<section class="features-wr">
    <div class="container">
         <ul>
             <li>
@@ -122,7 +189,7 @@
             </li>
         </ul>
    </div>
-</section>
+</section>-->
 <section class="pad-t-3"></section>
 <section class="pad-t-3"></section>
 </div>
