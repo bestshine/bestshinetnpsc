@@ -81,7 +81,7 @@
 
                 <div class="item">
                     <img src="{{ asset('images/home/neet-BANNER.png') }}" alt="Chicago" style="width:100%;">
-                    <div class="carousel-caption">
+                    <div class="carousel-inner-content col-md-6">
                         <div class="row">
                             <div class="banner-carousel-cont text-center">
                                 <span>
