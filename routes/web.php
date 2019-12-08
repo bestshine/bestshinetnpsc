@@ -32,8 +32,8 @@ Route::post('/send/report-error', 'ReportErrorController@sendReportError')->name
 Route::post('common/get-standards', 'CommonController@ajaxAllStandards')->name('ajaxAllStandards');
 
 
-Route::get('register', ['as'=>'Register', 'uses'=>'Auth\RegisterController@showRegistrationForm']);
-Route::post('post/register', ['as'=>'postRegister', 'uses'=>'Auth\RegisterController@storeRegistrationFormData']);
+//Route::get('register', ['as'=>'Register', 'uses'=>'Auth\RegisterController@showRegistrationForm']);
+//Route::post('post/register', ['as'=>'postRegister', 'uses'=>'Auth\RegisterController@storeRegistrationFormData']);
 
 Route::get('login', ['as'=>'Login', 'uses'=>'Auth\LoginController@showLoginForm']);
 Route::post('post/login', ['as'=>'postLogin', 'uses'=>'Auth\LoginController@authenticate']);
@@ -133,7 +133,10 @@ Route::group(['prefix' => 'dashboard', 'middleware' => ['auth']], function(){
 		Route::get('/', 'MasterController@index')->name('masterIndex');
 
 		// users
+		Route::get('register', ['as'=>'Register', 'uses'=>'Auth\RegisterController@showRegistrationForm']);
+		Route::post('post/register', ['as'=>'postRegister', 'uses'=>'Auth\RegisterController@storeRegistrationFormData']);
 		Route::get('/user', 'UserController@index')->name('userIndex');
+		
 
 		Route::get('/users-search', 'UserController@usersSearch')->name('usersSearch');
 
