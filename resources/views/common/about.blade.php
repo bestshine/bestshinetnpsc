@@ -18,19 +18,19 @@
 				<div class="col-md-4 text-center">
 					<img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
 					<h2 class="heading" style="font-size: 35px;">Academics</h2>
-					<div class="col-md-12">
+					<div class="col-md-12" align="left">
                                     <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COURCES OFFERED</a>
                      </div>
-                     <div class="col-md-12">
+                     <div class="col-md-12" align="left">
                                     <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">EXAM PATTERN</a>
                      </div>
-                     <div class="col-md-12">
+                     <div class="col-md-12" align="left">
                                     <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">BOOK LIST</a>
                      </div>
-                     <div class="col-md-12">
+                     <div class="col-md-12" align="left">
                                     <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">INTERVIEW GUIDANCE</a>
                      </div>
-                     <div class="col-md-12">
+                     <div class="col-md-12" align="left">
                                     <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COUNSELLING SUPPORT</a>
                      </div>
 				<!--	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>-->
