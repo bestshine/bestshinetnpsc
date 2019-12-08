@@ -128,7 +128,7 @@
         </div>
     </div> 
 
-    <section class="news">
+   <!-- <section class="news">
         <div class="container">
             <div class="news-out-wr"> 
                 <div class="lable-wr">
@@ -155,9 +155,9 @@
                <img src="{{ asset('images/home/analyzer.png') }}" alt="image-of-analyze">
             </div>
         </div>
-    </section> 
+    </section> -->
 
-    <section class="neet-cls-feature-wr mr-t-0">
+   <!-- <section class="neet-cls-feature-wr mr-t-0">
         <div class="container">
             <div class="neet-cls-feature-in">
                 <h3>List of Online Test</h3>
@@ -201,9 +201,9 @@
                 </ul>
             </div>
         </div>
-    </section> 
+    </section> -->
 
-    <section class="include-test-wr pad-t-3">
+   <!-- <section class="include-test-wr pad-t-3">
         <div class="container">
             <div class="row"> 
                 <div class="col-md-6 include-list-wr text-left">
@@ -312,7 +312,7 @@
                 </div>   
             </div>
         </div>
-    </section> 
+    </section> -->
 
     <section class="usr-fb-wr text-center mr-b-0">
         <div class="usr-fb container">
