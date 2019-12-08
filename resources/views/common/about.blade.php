@@ -19,7 +19,7 @@
 					<img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
 					<h2 class="heading" style="font-size: 18px;">Academics</h2>
 					<div class="col-md-12">
-                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 18px;">Get courses</a>
                      </div>
                      <div class="col-md-12">
                                     <a href="#" class="get-courses-btn dilb">Get courses</a>
