@@ -10,6 +10,12 @@ use App\Http\Requests\RegistrationFormRequest;
 class UserController extends Controller
 {
     /**
+     * Where to redirect users after registration.
+     *
+     * @var string
+     */
+    protected $redirectTo = '/';
+    /**
      * CommonInterface instance
      *
      * @var Interface instance
