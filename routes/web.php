@@ -137,6 +137,7 @@ Route::group(['prefix' => 'dashboard', 'middleware' => ['auth']], function(){
 		Route::post('post/register', ['as'=>'postRegister', 'uses'=>'Auth\RegisterController@storeRegistrationFormData']);
 		Route::get('/user', 'UserController@index')->name('userIndex');
 		Route::get('/user-create', 'UserController@userCreate')->name('userCreate');
+		Route::get('/postuser-create', 'UserController@postuserCreate')->name('postuserCreate');
 
 
 		Route::get('/users-search', 'UserController@usersSearch')->name('usersSearch');

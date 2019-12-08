@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Repositories\User\UserInterface as UserInterface;
 use App\Repositories\Common\CommonInterface as CommonInterface;
+use App\Http\Requests\RegistrationFormRequest;
 
 class UserController extends Controller
 {
@@ -57,6 +58,14 @@ class UserController extends Controller
         $mediums = $this->common->getAllMediums(); 
         $mainModules = $this->user->getActivatedMainModules();
         return view('user.register',compact('states','mediums','boards','mainModules'));        
+    }
+    public function postuserCreate(RegistrationFormRequest $request)
+    {   
+        $value = $request->all();
+        $obj = $this->user->store($value);
+        dd($obj);
+        Auth::login($obj);
+        return redirect()->intended('dashboard')->with('registerSuccess', 'New user has been registred successfully');
     }
       
 }
