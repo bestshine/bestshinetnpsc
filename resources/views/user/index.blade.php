@@ -29,6 +29,14 @@
                         <meta itemprop="position" content="3">
                     </li>
                 </ol>
+                <div class="collapse navbar-collapse" id="app-navbar-collapse">
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="nav navbar-nav navbar-right">
+                            
+                            <li><a href="{{ route('register') }}">New Admission</a></li>
+                    </ul>
+                </div>
                 <form class="form-inline" action="{{ route('usersSearch') }}" method="GET">
 
                     <div class="form-group">
