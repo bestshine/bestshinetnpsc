@@ -4,18 +4,27 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Repositories\User\UserInterface as UserInterface;
+use App\Repositories\Common\CommonInterface as CommonInterface;
 
 class UserController extends Controller
 {
+    /**
+     * CommonInterface instance
+     *
+     * @var Interface instance
+     * @access protected
+     */    
+    protected $common;  
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct(UserInterface $user)
+    public function __construct(UserInterface $user,CommonInterface $common)
     {
         $this->middleware('auth');
         $this->user = $user;
+        $this->common = $common;
     }    
 
 
@@ -40,5 +49,14 @@ class UserController extends Controller
         $value = $request->all();
         $users = $this->user->usersSearch($value);
         return view('user.index',compact('users'));         
-    }          
+    }    
+    public function userCreate()
+    {   
+        $states = $this->common->getAllStates();
+        $boards = $this->common->getAllBoards(); 
+        $mediums = $this->common->getAllMediums(); 
+        $mainModules = $this->user->getActivatedMainModules();
+        return view('user.register',compact('states','mediums','boards','mainModules'));        
+    }
+      
 }

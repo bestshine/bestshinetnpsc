@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="custom-box">
-              <a href="{{ route('register') }}">
+              <a href="{{ route('userCreate') }}">
                 <i class="fa fa-users fa-lg fa-3x"></i>
                 <p>New Admission</p>
               </a>
