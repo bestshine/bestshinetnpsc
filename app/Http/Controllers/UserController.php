@@ -69,7 +69,7 @@ class UserController extends Controller
     {   
         $value = $request->all();
         $obj = $this->user->store($value);
-        dd($obj);
+        //dd($obj);
         Auth::login($obj);
         return redirect()->intended('dashboard')->with('registerSuccess', 'New user has been registred successfully');
     }
