@@ -29,6 +29,14 @@
                         <meta itemprop="position" content="3">
                     </li>
                 </ol>
+                <div class="col-md-4">
+            <div class="custom-box">
+              <a href="{{ route('register') }}">
+                <i class="fa fa-users fa-lg fa-3x"></i>
+                      <p>New Admission</p>
+              </a>
+            </div>
+          </div>
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
 
                     <!-- Right Side Of Navbar -->
