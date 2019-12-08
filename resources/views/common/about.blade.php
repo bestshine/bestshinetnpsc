@@ -17,23 +17,23 @@
 		<div class="pad-t-3 mission-vis-wr" id="loading">
 				<div class="col-md-4 text-center">
 					<img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
-					<h2 class="heading" style="font-size: 30px;">Academics</h2>
+					<h2 class="heading" style="font-size: 35px;">Academics</h2>
 					<div class="col-md-12">
-                                    <a href="#" class="get-courses-btn dilb" style="font-size: 18px;">Get courses</a>
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COURCES OFFERED</a>
                      </div>
                      <div class="col-md-12">
-                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">EXAM PATTERN</a>
                      </div>
                      <div class="col-md-12">
-                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">BOOK LIST</a>
                      </div>
                      <div class="col-md-12">
-                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">INTERVIEW GUIDANCE</a>
                      </div>
                      <div class="col-md-12">
-                                    <a href="#" class="get-courses-btn dilb">Get courses</a>
+                                    <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COUNSELLING SUPPORT</a>
                      </div>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+				<!--	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>-->
 				</div>
 				<div class="col-md-4 text-center">
 					<img src="{{ asset('images/home/mission.png') }}" class="wow animated fadeInRight">
