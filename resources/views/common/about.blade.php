@@ -17,7 +17,7 @@
 		<div class="pad-t-3 mission-vis-wr" id="loading">
 				<div class="col-md-4 text-center">
 					<img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
-					<h2 class="heading" style="font-size: 18px;">Academics</h2>
+					<h2 class="heading" style="font-size: 30px;">Academics</h2>
 					<div class="col-md-12">
                                     <a href="#" class="get-courses-btn dilb" style="font-size: 18px;">Get courses</a>
                      </div>
