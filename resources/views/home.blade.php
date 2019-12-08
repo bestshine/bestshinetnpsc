@@ -62,6 +62,15 @@
                 <div class="item active">
                     <img src="{{ asset('images/home/neet-BANNER.png') }}" alt="Los Angeles" style="width:100%;">
                     <div class="carousel-inner-content col-md-6">
+                        <section class="news">
+                            <div class="container">
+                                <div class="news-out-wr"> 
+                                    <div class="lable-wr">
+                                      <span class="span-label">Latest News</span><span><marquee>NEET exam can be written by total 3 times starts from the year 2017. People who wrote NEET exam last year (2016) also can able to appear this year(2017) and total number of times written Will be calculated from this year Only.</marquee></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                         <div class="row">
                             <div class="banner-carousel-cont text-center">
                                 <span>
