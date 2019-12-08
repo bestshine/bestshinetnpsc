@@ -43,7 +43,7 @@
         
 
 
-        <h2 class="heading">TNPSC</h2>
+        <h2 class="heading">BANKING</h2>
         <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>-->
         <div class="pad-t-3 mission-vis-wr" id="loading">
                 <div class="col-md-4 text-center">
