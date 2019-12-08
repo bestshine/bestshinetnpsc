@@ -48,7 +48,7 @@
 				</div>
 				<div class="col-md-4 text-center">
 					<img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
-					<h2 class="heading" style="font-size: 18px;">Overview</h2>
+					<h2 class="heading" style="font-size: 35px;">Overview</h2>
 					<div class="col-md-12" align="left">
                                     <a href="#" class="get-courses-btn dilb" style="font-size: 25px;">COURCES OFFERED</a>
                      </div>
@@ -72,7 +72,7 @@
 	    </div>
 	</div>
 </section>
-<section class="value-sec-wr">
+<!--<section class="value-sec-wr">
 	<div class="container">
 		<div class="pad-t-3 values-wr">
 			<div class="row text-center">
@@ -89,7 +89,7 @@
 			</div>
 	    </div>
 	</div>
-</section>
+</section>-->
 <div class="pad-t-3"></div>
 <div class="pad-t-3"></div>
 
