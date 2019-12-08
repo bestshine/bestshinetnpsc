@@ -15,14 +15,19 @@
 		<h2 class="heading">About</h2>
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </p>
 		<div class="pad-t-3 mission-vis-wr" id="loading">
-				<div class="col-md-6 text-center">
+				<div class="col-md-4 text-center">
 					<img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
 					<h2 class="heading" style="font-size: 18px;">Vision</h2>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
 				</div>
-				<div class="col-md-6 text-center">
+				<div class="col-md-4 text-center">
 					<img src="{{ asset('images/home/mission.png') }}" class="wow animated fadeInRight">
 					<h2 class="heading" style="font-size: 18px;">Mission</h2>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img src="{{ asset('images/home/vision.png') }}" class="wow animated fadeInLeft">
+					<h2 class="heading" style="font-size: 18px;">Vision</h2>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
 				</div>
 	    </div>
