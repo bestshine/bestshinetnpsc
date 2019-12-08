@@ -44,7 +44,7 @@
                     <ul class="nav navbar-nav navbar-right">
                             <li><a href="{{ route('home') }}">Home</a></li>
                             <li><a href="{{ route('aboutUs') }}">TNPSC</a></li>
-                            <!--<li><a href="{{ route('features') }}">TNPSC</a></li>-->
+                           
                             <li><a href="{{ route('features') }}">BANKING</a></li>
                             <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
                             <li><a href="{{ route('login') }}">Login</a></li>
