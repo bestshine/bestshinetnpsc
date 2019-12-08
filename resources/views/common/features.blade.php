@@ -7,20 +7,20 @@
 <section class="new-contact">
      <div class="jumbotron jumbotron-sm mr-b-0">
     <div class="container">
-        <div class="row">
+       <!-- <div class="row">
             <div class="col-sm-12 col-lg-12">
                 <h1 class="h1">
                     Main Features of Test You
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 <div class="feature-bg">
   <div class="container">
-    <div class="row Feature-sec1 text-center">
+   <!-- <div class="row Feature-sec1 text-center">
         <div class="col-sm-3 fea-img-wr animated fadeInUp" style="animation-delay: 0.2">
            <img src="{{ asset('images/home/Examiner.png') }}"> 
-           <!--  <img src="{{ asset('images/home/Examiner-img.png') }}" class="wow animated fadeInUp fes-img2" style="animation-delay: 0.2s;">   -->      
+             <img src="{{ asset('images/home/Examiner-img.png') }}" class="wow animated fadeInUp fes-img2" style="animation-delay: 0.2s;">      
         </div>
         <div class="col-sm-3 animated fadeInDown" style="animation-delay: 0.4">
              <img src="{{ asset('images/home/student.png') }}">           
@@ -32,7 +32,7 @@
             <img src="{{ asset('images/home/All.png') }}">         
         </div>
        
-    </div>
+    </div>-->
     <hr>
 </div>
 <section class="text-center about-wr">
