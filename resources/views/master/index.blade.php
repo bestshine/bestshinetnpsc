@@ -24,14 +24,14 @@
       		</li>
         </ol>
         <div class="row">
-          <div class="col-md-4">
+          <!--<div class="col-md-4">
             <div class="custom-box">
               <a href="{{ route('userCreate') }}">
                 <i class="fa fa-users fa-lg fa-3x"></i>
                 <p>New Admission</p>
               </a>
             </div>
-          </div>
+          </div>-->
           <!-- Users -->
           <div class="col-md-4">
             <div class="custom-box">
